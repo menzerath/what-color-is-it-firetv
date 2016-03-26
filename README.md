@@ -1,5 +1,5 @@
-# What Color Is It - FireTV
-This is a [What Color Is It?](https://github.com/MarvinMenzerath/WhatColorIsIt)-Edition for the Amazon Fire TV (Stick).  
+# What Color Is It - Fire TV
+This is a "[What Color Is It?](https://github.com/MarvinMenzerath/WhatColorIsIt)"-edition for the Amazon Fire TV (Stick).  
 You can install it on your device using the [Amazon App Store](http://www.amazon.de/Marvin-Menzerath-What-Color-Is/dp/B018BITPJO).
 
 ## License
