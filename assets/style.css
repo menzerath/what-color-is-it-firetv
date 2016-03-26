@@ -1,0 +1,42 @@
+@font-face {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Open Sans"), local("OpenSans"),
+       url("./fonts/open-sans-v13-latin-regular.woff2") format("woff2"),
+       url("./fonts/open-sans-v13-latin-regular.woff") format("woff"),
+       url("./fonts/open-sans-v13-latin-regular.ttf") format("truetype")
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	transition: all 0.8s;
+}
+
+h1 {
+	font-family: "Open Sans", sans-serif;
+	font-size: 6em;
+	font-weight: 400;
+	color: white;
+	text-align: center;
+	width: 100%;
+}
+
+.centered {
+	position: fixed;
+	top: 40%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+}
+
+video {
+	display: none;
+}
+
+@media (max-width: 1024px) {
+	h1 {
+		font-size: 3em;
+	}
+}
