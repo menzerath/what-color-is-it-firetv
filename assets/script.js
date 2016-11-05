@@ -12,4 +12,4 @@ function updateScreen() {
 	document.body.style.background = "#" + h + m + s;
 }
 
-window.onload = setInterval(function () { updateScreen(); }, 100);
+window.onload = setInterval(updateScreen, 100);
